@@ -70,8 +70,4 @@ public class InventoryService {
 		}
 	}
 
-	public void updateInventory(String concertId, String quantity) {
-		String key = INVENTORY_KEY_PREFIX + concertId;
-		redisService.saveData(key, quantity);
-	}
 }

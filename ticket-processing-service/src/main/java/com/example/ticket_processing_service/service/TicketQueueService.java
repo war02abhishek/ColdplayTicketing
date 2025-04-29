@@ -42,13 +42,14 @@ public class TicketQueueService {
 		return position != null ? position.intValue() + 1 : -1;
 	}
 
+	//seats with this concertId has been updated
 	public void processQueue(String concertId) throws JsonProcessingException {
 		String queueKey = QUEUE_PREFIX + concertId;
 
 		while (true) {
 			// Get next in queue
 			// Get the oldest request (lowest score)
-			Set<String> nextRequests = redisService.zRange(queueKey, 0, 0);
+			Set<String>nextRequests = redisService.zRange(queueKey, 0, 0);
 			if (nextRequests.isEmpty())
 				break;
 

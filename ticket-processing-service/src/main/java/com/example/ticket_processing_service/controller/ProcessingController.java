@@ -18,7 +18,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 
 @RestController
 @RequestMapping("/redis")
-public class RedisController {
+public class ProcessingController {
 
 	private static final String INVENTORY_KEY_PREFIX = "inventory:";
 
