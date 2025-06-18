@@ -1,5 +1,3 @@
-**GOALS**
-
 **Frontend GOALs**
 
 Login
