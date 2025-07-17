@@ -1,1 +1,24 @@
+TicketRequest Topic -> concertId
+                       userId
+                       quantity
+                       status - PENDING
+
+Consume Ticket Request all booking request, Confirm these booking one by one,Update inventory,Chnage status to confirmed and push into TicketResult topic
+Inventory became 0,all request should pushed with status WAITLIST 
+
+My Redis Cache
+will contain:
+
+concert:{id}:availableSeats → Integer
+concert:{id}:queue → List ( to track positions)
+
+
+
+
+ and when status is confimrmed should we flush from TicketRequest
+
+TicketResult Topic  -> concertId,
+                       userId
+                       quantity
+                       status:CONFIRMED
 
