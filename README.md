@@ -45,6 +45,11 @@ Deployments ->either kubernates or AWS if we can (will be challenging)
 
 <img width="1336" height="313" alt="image" src="https://github.com/user-attachments/assets/17f6c2fc-47c2-4dc9-a3cc-233ae1afd66b" />
 
+<img width="661" height="127" alt="image" src="https://github.com/user-attachments/assets/15aba8ef-829a-4566-b4e3-9964ffbec2cf" />
+<img width="452" height="96" alt="image" src="https://github.com/user-attachments/assets/9bfe9702-06f2-42d0-ae67-8366ec5ad1ed" />
+
+
+
 
 
 
