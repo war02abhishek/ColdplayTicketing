@@ -62,6 +62,10 @@ You can access your API Gateway at http://localhost:8080 from your browser
 <img width="661" height="127" alt="image" src="https://github.com/user-attachments/assets/15aba8ef-829a-4566-b4e3-9964ffbec2cf" />
 <img width="452" height="96" alt="image" src="https://github.com/user-attachments/assets/9bfe9702-06f2-42d0-ae67-8366ec5ad1ed" />
 
+Locally tested and now ready for deployment 
+
+
+<img width="1336" height="368" alt="image" src="https://github.com/user-attachments/assets/bdc25bea-ec90-4a86-91e7-87fad15a8dfb" />
 
 
 
