@@ -68,6 +68,9 @@ Locally tested and now ready for deployment
 <img width="1336" height="368" alt="image" src="https://github.com/user-attachments/assets/bdc25bea-ec90-4a86-91e7-87fad15a8dfb" />
 
 
+Crested EC2 instance ,SSH into it and then install Docker and Docker compose over it and checked
+<img width="565" height="436" alt="image" src="https://github.com/user-attachments/assets/0cda5814-f012-4c47-a5ad-ef6d7ea6bbb0" />
+
 
 
 
